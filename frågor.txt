@@ -1,0 +1,26 @@
+När använder man add respektive commit?
+
+add används för att lägga till filer i "staging area" - dvs göra dem "redo" för att 
+commita. commit används för att göra själva ändringen eller sparandet. Det som 
+commitas är alltså det som finns i staging area (dvs de filer en har addat) 
+
+Vad är pull respektive push? 
+
+pull handlar om att hämta hem ändringar/filer/data från ens remote repository.
+push handlar om att skicka ändringar/filer/data från ens lokala repository till ens 
+remote repository.
+
+När använder man log respektive status?
+
+log används för att kolla commit-historiken
+status används för att kolla om det är något som behöver commitas eller 
+ändringar som behöver addas (till staging area för att i sin tur commitas)
+
+Vad är en Git branch och varför är de viktiga? 
+
+En branch använder man om man vill göra en serie av commits för att testa 
+nånting. Kanske skapa en ny klass med en ny funktionalitet som man vill 
+skapa en commit-historik av. Med en branch är det enkelt att sen radera 
+hela branchen eller merga till master-branchen om det är något man vill 
+behålla. branches låter oss också samarbeta på ett enkelt sätt - jobbar 
+man i team är det lätt att ha varsin branch när en jobbar individuellt. 
